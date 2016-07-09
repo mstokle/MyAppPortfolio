@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ar.com.stokle.myappportfolio.MainActivity$MyAppPortfolioFragment"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.09" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="My Nanodegree Apps!"
+        android:id="@+id/textView"
+        android:textAlignment="gravity"
+        android:layout_weight="0.09"
+        android:textStyle="bold"
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:gravity="bottom|center_horizontal" />
+
+    <Button
+        style="@style/ButtonStyle"
+        android:text="POPULAR MOVIES"
+        android:id="@+id/popmoviesbtn"
+        android:onClick="sendMessage"/>
+
+    <Button
+        style="@style/ButtonStyle"
+        android:text="STOCK HAWK"
+        android:id="@+id/stockhawkbtn"
+        android:onClick="sendMessage"/>
+
+    <Button
+        style="@style/ButtonStyle"
+        android:text="BUILD IT BIGGER"
+        android:id="@+id/builditbiggerbtn"
+        android:onClick="sendMessage"/>
+
+    <Button
+        style="@style/ButtonStyle"
+        android:text="MAKE YOUR APP MATERIAL"
+        android:id="@+id/makeyourappmaterialbtn"
+        android:onClick="sendMessage"/>
+
+    <Button
+        style="@style/ButtonStyle"
+        android:text="GO UBIQUITOUS"
+        android:id="@+id/goubiquitousbtn"
+        android:onClick="sendMessage"/>
+
+    <Button
+        style="@style/ButtonStyle"
+        android:text="CAPSTONE"
+        android:id="@+id/capstonebtn"
+        android:onClick="sendMessage"/>
+</LinearLayout>
